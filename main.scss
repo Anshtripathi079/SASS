@@ -1,3 +1,6 @@
+// import 
+// @import "style";
+
 // sass variables
 $main-heading: rgb(13, 255, 0);
 $main-fontsize: 3rem;
@@ -37,5 +40,30 @@ h2 {
 }
 
 // parameters
+@mixin common-font($par1){
+  font-size: $par1;
+}
+
+.text{
+  @include common-font(1rem); // using mixin with include
+}
 
 
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report  {
+  @extend .button-basic;
+  background-color: red;
+}
+
+.button-submit  {
+  @extend .button-basic;
+  background-color: green;
+  color: white;
+}

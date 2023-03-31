@@ -26,4 +26,25 @@ h2 {
 .container p:hover {
   color: green;
 }
+
+.text {
+  font-size: 1rem;
+}
+
+.button-basic, .button-report, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: red;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
