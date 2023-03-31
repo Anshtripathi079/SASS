@@ -16,6 +16,7 @@ This process is called transpiling. So, you need to give a transpiler (some kind
 ## Sass Comments
 Sass supports standard CSS comments /* comment */, and in addition it supports inline comments // comment.
 
+## Sass Variables
 With Sass, you can store information in variables, like:
 
 - strings
@@ -29,3 +30,4 @@ Sass uses the $ symbol, followed by a name, to declare variables:
 ```scss I'm A tab
 $variablename: value;
 ```
+
