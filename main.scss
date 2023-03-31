@@ -1,0 +1,41 @@
+// sass variables
+$main-heading: rgb(13, 255, 0);
+$main-fontsize: 3rem;
+
+// sass operators
+$secondary-fontsize: 1rem+1rem;
+
+
+h1 {
+  //   color: blue;
+  color: $main-heading;
+  font-size: $main-fontsize;
+}
+h2 {
+  font-size: $secondary-fontsize;
+}
+
+// nesting
+.container {
+  background-color: pink;
+
+  h3 {
+    color: green;
+    &:hover{ color: blue};  
+  }
+  p {
+    color: blue;
+    &:hover{color: green}
+  }
+}
+
+// mixin 
+@mixin flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// parameters
+
+

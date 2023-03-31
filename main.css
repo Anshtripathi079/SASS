@@ -1,0 +1,29 @@
+h1 {
+  color: #0dff00;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.container {
+  background-color: pink;
+}
+
+.container h3 {
+  color: green;
+}
+
+.container h3:hover {
+  color: blue;
+}
+
+.container p {
+  color: blue;
+}
+
+.container p:hover {
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */
